@@ -5,3 +5,11 @@ body {
     font-family: "Rethink Sans", Arial, sans-serif;
     font-size: medium;
 }
+
+.page {
+    color: black;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    min-height: 5vh;
+}
