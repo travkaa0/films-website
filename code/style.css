@@ -4,6 +4,7 @@ body {
     background-color: antiquewhite;
     font-family: "Rethink Sans", Arial, sans-serif;
     font-size: medium;
+    color: black;
 }
 
 .page {
@@ -12,4 +13,31 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 5vh;
+}
+
+.main-page {
+    color: black;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.genres {
+    color: black;
+    gap: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side {
+    flex-grow: 1;
+}
+
+.right-side {
+    margin-right: 100px;
 }
