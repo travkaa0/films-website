@@ -7,6 +7,11 @@ body {
     color: black;
 }
 
+iframe {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 .page {
     color: black;
     font-style: italic;
@@ -41,3 +46,4 @@ body {
 .right-side {
     margin-right: 100px;
 }
+
