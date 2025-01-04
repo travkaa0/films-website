@@ -20,7 +20,7 @@ iframe {
     min-height: 5vh;
 }
 
-.main-page {
+.main-page, .about-me {
     color: black;
     font-style: italic;
     border: 2px solid black;
@@ -28,12 +28,10 @@ iframe {
     padding: 5px;
 }
 
-.about-me {
-    color: black;
-    font-style: italic;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 5px;
+.leave-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .genres {
