@@ -28,6 +28,14 @@ iframe {
     padding: 5px;
 }
 
+.about-me {
+    color: black;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .genres {
     color: black;
     gap: 100px;
