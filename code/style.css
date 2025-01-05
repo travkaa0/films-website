@@ -12,11 +12,6 @@ iframe {
     border-radius: 10px;
 }
 
-img {
-    width: 30%;
-    height: auto;
-}
-
 .header-section {
     background-color: aqua;
     text-align: center;
@@ -24,31 +19,39 @@ img {
     border-radius: 10px;
 }
 
-.main-container {
+.right-section img {
+    max-width: 14%;
+    height: auto;
+}
+
+.pages-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.pages-section {
-    flex-grow: 1;
+.page, .about-btn {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
 }
 
-.right-section {
-    
+.page:hover, .about-btn:hover {
+    color: blue;
+    text-decoration: underline;
 }
 
 .page {
     color: black;
     font-style: italic;
-    display: flex;
-    flex-direction: column;
-    min-height: 5vh;
-    transition: color 0.3s ease;
-}
-
-.page:hover {
-    color: rgb(0, 12, 173);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .main-page, .about-me {
