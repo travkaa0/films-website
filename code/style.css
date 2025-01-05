@@ -74,6 +74,11 @@ iframe {
 .main-img {
     border: 2px solid black;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.main-img:hover {
+    transform: scale(1.1);
 }
 
 .main-page, .about-me {
