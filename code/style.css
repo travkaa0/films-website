@@ -42,19 +42,15 @@ iframe {
     text-align: center;
 }
 
-.about-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.page:hover, .about-btn:hover {
+.page:hover, .about-me:hover {
     color: blue;
     text-decoration: underline;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .main-page, .about-me {
