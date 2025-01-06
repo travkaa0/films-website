@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
-    background-color: antiquewhite;
-    font-family: "Rethink Sans", Arial, sans-serif;
+    background-color: rgb(216, 216, 216);
+    font-family: "Diphylleia", Arial, sans-serif;
     font-size: medium;
     color: black;
 }
@@ -40,7 +41,7 @@ iframe {
 }
 
 .page {
-    background-color: antiquewhite;
+    background-color: rgb(216, 216, 216);
 }
 
 .page, .about-me {
@@ -75,10 +76,16 @@ iframe {
     border: 2px solid black;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    display: block;
 }
 
 .main-img:hover {
     transform: scale(1.1);
+}
+
+.sub {
+    margin-top: 11px;
+    text-align: center;
 }
 
 .main-page, .about-me {
