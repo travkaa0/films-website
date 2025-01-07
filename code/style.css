@@ -100,6 +100,10 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(191, 245, 245);
+    padding: 10px;
 }
 
 .genres {
@@ -117,12 +121,13 @@ iframe {
 }
 
 .header {
-    /* border: 2px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(191, 245, 245);
     padding: 5px;
-    display: inline-block; */
+    /* display: inline-block; */
     text-align: center;
+    width: 1000px
 }
 
 .left-side {
@@ -138,6 +143,19 @@ iframe {
     flex-shrink: 0;
     height: 1650px;
     box-sizing: border-box;
+    background-color: rgb(191, 245, 245);
+}
+
+.right-side-sci-fi {
+    margin-right: 100px;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    flex-shrink: 0;
+    height: 1340px;
+    box-sizing: border-box;
+    background-color: rgb(191, 245, 245);
 }
 
 .about-genre {
