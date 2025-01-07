@@ -168,6 +168,23 @@ iframe {
     background-color: rgb(191, 245, 245);
     padding: 10px;
     width: 200px;
+    height: 120px;
     display: flex;
     flex-direction: column;
+}
+
+.about-me-text {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(191, 245, 245);
+    padding: 10px;
+    width: 1470px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
