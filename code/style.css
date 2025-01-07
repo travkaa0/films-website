@@ -49,7 +49,7 @@ iframe {
     transform: scale(1.05);
 }
 
-.page, .about-me {
+.page {
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -60,14 +60,6 @@ iframe {
     border-radius: 5px;
     padding: 5px;
     text-align: center;
-}
-
-.about-me, .logo{
-    transition: transform 0.3s ease;
-}
-
-.about-me:hover, .logo:hover{
-    transform: scale(1.1);
 }
 
 /* .page:hover, .about-me:hover {
@@ -126,12 +118,18 @@ iframe {
     text-align: center;
 }
 
-.main-page, .about-me {
+.main-page, .about-me, .logo {
     color: black;
     font-style: italic;
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.main-page:hover, .about-me:hover, .logo:hover{
+    transform: scale(1.1);
 }
 
 .leave-buttons {
