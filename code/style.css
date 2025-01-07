@@ -132,11 +132,15 @@ iframe {
 .right-side {
     margin-right: 100px;
     border: 2px solid black;
-    padding: 100px;
+    padding: 40px;
     border-radius: 10px;
     width: 400px;
     flex-shrink: 0;
     height: 1650px;
     box-sizing: border-box;
+}
+
+.about-genre {
+    font-size: 110%;
 }
 
