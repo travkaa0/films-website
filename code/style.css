@@ -67,7 +67,7 @@ iframe {
 }
 
 .about-me:hover, .logo:hover{
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 /* .page:hover, .about-me:hover {
@@ -205,17 +205,17 @@ iframe {
     border-radius: 10px;
     background-color: rgb(191, 245, 245);
     padding: 10px;
-    width: 180px;
-    height: 125px;
+    width: 205px;
+    height: 124px;
 
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
-
+/* 
 .contacts:hover {
     transform: scale(1.1);
-}
+} */
 
 .about-me-text {
     border: 2px solid black;
