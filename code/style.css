@@ -42,14 +42,6 @@ iframe {
 
 .page { 
     background-color: rgb(216, 216, 216);
-    transition: transform 0.3s ease;
-}
-
-.page:hover {
-    transform: scale(1.05);
-}
-
-.page {
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -60,6 +52,11 @@ iframe {
     border-radius: 5px;
     padding: 5px;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.page:hover {
+    transform: scale(1.05);
 }
 
 /* .page:hover, .about-me:hover {
@@ -118,7 +115,7 @@ iframe {
     text-align: center;
 }
 
-.main-page, .about-me, .logo {
+.main-page, .about-me {
     color: black;
     font-style: italic;
     border: 2px solid black;
@@ -128,7 +125,15 @@ iframe {
     text-decoration: none;
 }
 
-.main-page:hover, .about-me:hover, .logo:hover{
+.main-page:hover, .about-me:hover{
+    transform: scale(1.1);
+}
+
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover{
     transform: scale(1.1);
 }
 
@@ -229,4 +234,11 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.about-me-header {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(191, 245, 245);
+    padding: 10px;
 }
