@@ -162,3 +162,12 @@ iframe {
     font-size: 110%;
 }
 
+.contacts {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(191, 245, 245);
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
